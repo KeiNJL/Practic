@@ -2,11 +2,10 @@
 
 int main()
 {
-    char name;
+    char name[30];
 
     printf("\nKak tebya zovut?\n");
-    name = getchar();
-    //scanf("%s", name);
-    printf("\nPrivet, %c\n", name);
+    scanf("%s", name);
+    printf("\nPrivet, %s\n", name);
     return 0;
 }
