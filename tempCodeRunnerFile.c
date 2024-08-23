@@ -1,1 +1,1 @@
-simvolax
+double Count(double time, double power, double rate);
