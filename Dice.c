@@ -20,7 +20,7 @@ int main()
 {
     long numThrows;
 
-    printf("\nDice – A random number benchmark\n\n");
+    printf("\nDice A random number benchmark\n\n");
     numThrows = GetNumThrows();
     if (numThrows > 0)
     {
@@ -44,7 +44,7 @@ void ThrowDice(long numThrows)
     long i;
     int k;
 
-    randomize();
+    rand();
     for (i = 1; i <= numThrows; i++)
     {
         k = (1 + random(6)) + (1 + random(6));
